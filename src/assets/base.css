@@ -1,28 +1,29 @@
 /* semantic color variables for this project */
 :root {
   --primary-color: #008C1E;
+  --primary-color-light: #80c58f;
   --text-color: black;
-  --color-background: white;
+  --background-color: white;
   --main-font: 'Montserrat', sans-serif;
-  --accent-font: 'Montserrat', sans-serif, bold;
+  --font-weight-bold: 700;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #008C1E;
-    --color-background: black;
+    --background-color: #212124;
     --text-color: white;
     }
 }
 
 .dark-mode {
   --primary-color: #008C1E;
-  --color-background: black;
+  --background-color: #212124;
   --text-color: white;
 }
 
 .light-mode {
   --primary-color: #008C1E;
-  --color-background: white;
+  --background-color: white;
   --text-color: black;
 }

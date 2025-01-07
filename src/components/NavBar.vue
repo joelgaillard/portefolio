@@ -59,6 +59,7 @@
     padding-left: 5rem;
     color: var(--text-color);
     text-decoration: none;
+    font-size: 1rem;
   }
   
   .navbar-item:hover {

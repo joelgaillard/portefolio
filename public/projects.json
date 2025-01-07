@@ -1,0 +1,134 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Elixir",
+            "description": "Dans le cadre d’un projet de développement fullstack, j’ai conçu et développé une application web de A à Z, intégrant des fonctionnalités complètes pour les utilisateurs, les managers et les administrateurs.",
+            "theme": "Développement web",
+            "content": {
+                "features": [
+                    {
+                        "title": "Pour les utilisateurs",
+                        "details": [
+                            "Consulter des cocktails avec des options de recherche, de filtrage et de tri.",
+                            "Voir les bars à proximité proposant un cocktail spécifique.",
+                            "Création et gestion d’un compte utilisateur (inscription, connexion).",
+                            "Mise en favoris de cocktails préférés.",
+                            "Notation des cocktails (de 1 à 5 étoiles).",
+                            "Accès à des salons de discussion géolocalisés, basés sur les bars dans un rayon de 100 m.",
+                            "Espace personnel pour modifier le pseudo, l’email, le mot de passe ou supprimer le compte."
+                        ]
+                    },
+                    {
+                        "title": "Pour les managers",
+                        "details": [
+                            "Création de cocktails.",
+                            "Ajout de bars et de leurs salons de discussion associés.",
+                            "Attribution de cocktails à leurs bars.",
+                            "Accès à toutes les fonctionnalités des utilisateurs."
+                        ]
+                    },
+                    {
+                        "title": "Pour les administrateurs",
+                        "details": [
+                            "Création de comptes managers.",
+                            "Suppression de comptes utilisateurs.",
+                            "Accès à toutes les fonctionnalités des managers et des utilisateurs."
+                        ]
+                    }
+                ]
+            },
+            "technologies": {
+                "Backend": [
+                    "API REST (niveau 2) développée avec Express.js",
+                    "WebSocket configuré avec Node.js pour la communication bidirectionnelle en temps réel"
+                ],
+                "Frontend": [
+                    "Vue.js pour l’interface utilisateur, avec intégration de WebSocket pour afficher les données en temps réel.",
+                    "Utilisation de Leaflet pour la visualisation des données géolocalisées."
+                ],
+                "Database": [
+                    "MongoDB, avec Mongoose pour gérer les interactions avec l’API REST."
+                ]
+            },
+            "images": [
+                "elixir.png"
+            ],
+            "competences": "Ce projet illustre ma maîtrise du développement backend, avec la création d'une API REST performante, et du développement frontend avec Vue.js, en intégrant des structures et des styles modernes pour une interface utilisateur intuitive."
+        },
+        {
+            "id": 2,
+            "name": "Explore Vaud",
+            "description": "Dans le cadre du projet d’articulation de fin de 2ᵉ année d’ingénierie des médias, nous avons conçu et développé une application web dédiée à la découverte et à la gestion des sentiers culturels du Canton de Vaud.",
+            "theme": "Développement web",
+            "content": {
+                "features": [
+                    {
+                        "title": "Pour les utilisateurs",
+                        "details": [
+                            "Une interface pour explorer des sentiers et découvrir des points d’intérêt culturels, avec possibilité de recherche, filtrage et tri.",
+                            "Création et gestion d’un compte utilisateur (inscription, connexion)."
+                        ]
+                    },
+                    {
+                        "title": "Pour les institutions",
+                        "details": [
+                            "Un espace permettant d’ajouter et de gérer des sentiers et points d’intérêt (le compte d’institution doit être créé par les administrateurs sur demande)."
+                        ]
+                    }
+                ]
+            },
+            "technologies": {
+                "Backend": [
+                    "Laravel (gestion complète du backend et des interactions avec la base de données)"
+                ],
+                "Frontend": [
+                    "Vue.js (intégré avec Inertia.js)",
+                    "Leaflet"
+                ],
+                "Database": [
+                    "MySQL"
+                ]
+            },
+            "role": {
+                "Backend": [
+                    "Conception et mise en place de toute la structure backend, incluant les diagrammes de classe (DC), schémas relationnels (SR) et migrations.",
+                    "Gestion et création des bases de données avec Eloquent ORM (migrations, relations, modèles).",
+                    "Développement des contrôleurs, middlewares, policies, logique métier et validations pour garantir une application robuste et performante.",
+                    "Intégration avec Inertia.js pour relier le backend Laravel au frontend Vue.js."
+                ],
+                "Design": [
+                    "Création du logo et choix des polices."
+                ]
+            },
+            "images": [
+                "explore-vaud.png"
+            ],
+            "competences": "Ce projet met en avant ma maîtrise du développement backend avec Laravel, ma gestion des bases de données avec MySQL, et ma capacité à collaborer sur des solutions esthétiques et fonctionnelles."
+        },
+        {
+            "id": 4,
+            "name": "Mobistyle",
+            "description": "Pas bug v1 portfolio",
+            "images": [
+                "mobistyle.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Annuaire HEIG",
+            "description": "Pas bug v1 portfolio",
+            "images": [
+                "annuaire-heig.png"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Baby Bump",
+            "description": "Pas bug v1 portfolio",
+            "images": [
+                "babybump.png"
+            ]
+        }
+    ]
+}
