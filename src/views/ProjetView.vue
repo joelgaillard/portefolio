@@ -1,7 +1,7 @@
 <template>
   <div v-if="projet" class="projet-container">
     <h1 class="projet-element name">{{ projet.name }}</h1>
-    <img class="projet-element image" :src="'../../public/' + projet.images[0]" alt="Image du projet">
+    <img class="projet-element image" :src="`/${projet.images[0]}`" alt="Image du projet">
     <div class="projet-element description">
       <h2>Description du projet</h2>
       <div>{{ projet.description }}</div>
