@@ -1,14 +1,10 @@
 <template>
-  <a v-if="link" :href="link" target="_blank" rel="noopener noreferrer">
-    <button :class="class">{{ text }}</button>
-  </a>
-  <button v-else :class="class" @click="handleClick">
+  <button @click="handleClick">
     {{ text }}
   </button>
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue'
 
 const props = defineProps({
   text: {
@@ -18,21 +14,23 @@ const props = defineProps({
   link: {
     type: String,
     default: ''
-  },
-  class: {
-    type: String,
-    default: ''
   }
 })
 
 const emits = defineEmits(['click'])
 
 function handleClick(event) {
-  emits('click', event)
+  if (props.link) {
+    window.open(props.link, '_blank', 'noopener,noreferrer')
+  } else {
+    emits('click', event)
+  }
 }
 </script>
 
+
 <style scoped>
+
 button {
   font-family: var(--accent-font);
   font-weight: bold;

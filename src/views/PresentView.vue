@@ -17,7 +17,7 @@
                     marketing, vente et gestion de projets.</span>
                 <div class="button-container">
                     <Button class="main" text="Découvrir mes projets" @click="navigateTo('/projets')" />
-                    <Button class="secondary" text="Consulter mon CV" link='/public/joel-gaillard-cv.pdf' />
+                    <Button class="secondary" text="Consulter mon CV" link='/joel-gaillard-cv.pdf' />
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@ function navigateTo(path) {
 }
 
 .photo {
-    background-image: url(../../public/portrait_joel.jpg);
+    background-image: url(/portrait_joel.jpg);
     background-size: cover;
     background-position: center;
     width: 70%;
