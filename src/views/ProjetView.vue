@@ -35,7 +35,6 @@
         <div v-for="tech in technologies" :key="tech">
           • {{ tech }}
         </div>
-        <div class="space"></div>
       </div>
     </div>
     <div v-if="projet.role" class="projet-element role">
@@ -53,10 +52,10 @@
       <div v-for="role in roles" :key="role">
         • {{ role }}
       </div>
-      <div class="space"></div>
     </div>
   </div>
 </div>    <div v-if="projet.competences" class="projet-element competences">
+  <div class="space"></div>
       <div>{{ projet.competences }}</div>
     </div>
   </div>

@@ -5,7 +5,7 @@
   <main>
     <RouterView />
   </main>
-  <MouseCircle />
+  <MouseCircle class="cursor-element" />
 </template>
 
 <script setup>
@@ -32,5 +32,23 @@ main {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .cursor-element {
+    display: none;
+  }
+
+  header {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+  main {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3rem;
+}
+
 }
 </style>

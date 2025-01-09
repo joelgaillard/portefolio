@@ -102,24 +102,20 @@ function navigateTo(path) {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .present-container {
-        gap: 3rem;
+        gap: 1rem;
         text-align: center;
     }
 
     .section1-container {
         flex-direction: column;
-        gap: 2rem;
+        gap: 0rem;
     }
 
     .photo {
         width: 100%;
         aspect-ratio: 1/1;
-    }
-
-    .texte {
-        font-size: 1rem;
     }
 
     .button-container {

@@ -107,9 +107,90 @@
             "competences": "Ce projet met en avant ma maîtrise du développement backend avec Laravel, ma gestion des bases de données avec MySQL, et ma capacité à collaborer sur des solutions esthétiques et fonctionnelles."
         },
         {
+            "id": 3,
+            "name": "Serial Vision",
+            "description": "Dans le cadre d’un projet de data visualisation, nous avons conçu et développé un site web mettant en lumière les tueurs en série des USA à travers des visualisations interactives. Ce projet explore leur répartition géographique, leurs profils et leurs caractéristiques principales.",
+            "theme": "Développement web",
+            "content": {
+                "features": [
+                    {
+                        "title": "Visualisations interactives",
+                        "details": [
+                            "Création de graphiques dynamiques et intuitifs (cartes, diagrammes, histogrammes, etc.) pour explorer les données sur les tueurs en série."
+                        ]
+                    },
+                    {
+                        "title": "Exploration des données",
+                        "details": [
+                            "Les utilisateurs peuvent filtrer les informations par critères tels que la région, le nombre de victimes ou la période d’activité."
+                        ]
+                    },
+                    {
+                        "title": "Données embarquées",
+                        "details": [
+                            "Les données au format JSON sont directement intégrées dans le frontend pour un fonctionnement rapide et autonome."
+                        ]
+                    }
+                ]
+            },
+            "technologies": {
+                "Frontend": [
+                    "JavaScript : Pour la logique des visualisations et du routage.",
+                    "HTML : Structure de l’application et intégration des visualisations.",
+                    "CSS : Mise en page de base pour accompagner les fonctionnalités interactives.",
+                    "D3.js : Création des visualisations interactives à partir des données JSON."
+                ]
+            },
+            "roles": [
+                {
+                    "title": "Visualisations avec D3.js",
+                    "details": [
+                        "Conception et implémentation des visualisations interactives pour représenter les données de manière intuitive."
+                    ]
+                },
+                {
+                    "title": "Mise en place des données",
+                    "details": [
+                        "Intégration, organisation et utilisation des fichiers JSON directement dans le frontend."
+                    ]
+                },
+                {
+                    "title": "Routage",
+                    "details": [
+                        "Mise en place d’un système de navigation entre les différentes visualisations pour une expérience utilisateur fluide."
+                    ]
+                },
+                {
+                    "title": "Contributions globales",
+                    "details": [
+                        "J’ai réalisé l’ensemble des aspects techniques du projet, excepté le design des maquettes graphiques et le style  en CSS."
+                    ]
+                }
+            ],
+            "role": {
+                "Visualisations avec D3.js": [
+                    "Conception et implémentation des visualisations interactives pour représenter les données de manière intuitive."
+                ],
+                "Mise en place des données": [
+                    "Intégration, organisation et utilisation des fichiers JSON directement dans le frontend."
+                ],
+                "Routage": [
+                    "Mise en place d’un système de navigation entre les différentes visualisations pour une expérience utilisateur fluide."
+                ],
+                "Contributions globales": [
+                    "J’ai réalisé l’ensemble des aspects techniques du projet, excepté le design des maquettes graphiques et le style avancé en CSS."
+                ]
+            },
+            "images": [
+                "serial-vision.png"
+            ],
+            "competences": "Ce projet illustre ma maîtrise de D3.js pour concevoir des visualisations interactives dynamiques, ainsi que mes compétences en développement frontend. J’ai intégré et structuré des datasets au format JSON directement dans le frontend, tout en assurant une navigation fluide grâce à un système de routage efficace."
+        },        
+        {
             "id": 4,
             "name": "Mobistyle",
             "description": "Pas bug v1 portfolio",
+            "theme": "Wordpress",
             "images": [
                 "mobistyle.jpg"
             ]
@@ -117,6 +198,7 @@
         {
             "id": 5,
             "name": "Annuaire HEIG",
+            "theme": "UX/UI",
             "description": "Pas bug v1 portfolio",
             "images": [
                 "annuaire-heig.png"
@@ -124,6 +206,7 @@
         },
         {
             "id": 6,
+            "theme": "Vente",
             "name": "Baby Bump",
             "description": "Pas bug v1 portfolio",
             "images": [

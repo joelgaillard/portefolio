@@ -45,15 +45,16 @@ button {
   color: var(--background-color);
 }
 
-.main:hover {
-  color: var(--primary-color);
-  background-color: var(--background-color);
-  cursor: pointer;
-}
-
 .secondary {
   background-color: var(--background-color);
   color: var(--primary-color);
+}
+
+@media (min-width: 1024px) {
+  .main:hover {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  cursor: pointer;
 }
 
 .secondary:hover {
@@ -66,5 +67,8 @@ button {
   button {
     font-size: 1rem;
   }
+}
+
+
 }
 </style>
