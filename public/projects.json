@@ -189,7 +189,7 @@
         {
             "id": 4,
             "name": "Mobistyle",
-            "description": "Pas bug v1 portfolio",
+            "description": "",
             "theme": "Wordpress",
             "images": [
                 "mobistyle.jpg"
@@ -199,7 +199,7 @@
             "id": 5,
             "name": "Annuaire HEIG",
             "theme": "UX/UI",
-            "description": "Pas bug v1 portfolio",
+            "description": "",
             "images": [
                 "annuaire-heig.png"
             ]
@@ -208,7 +208,7 @@
             "id": 6,
             "theme": "Vente",
             "name": "Baby Bump",
-            "description": "Pas bug v1 portfolio",
+            "description": "",
             "images": [
                 "babybump.png"
             ]
